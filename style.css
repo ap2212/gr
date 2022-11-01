@@ -67,7 +67,7 @@ section .title::before{
     transform: translateX(-50%);
 }
 section .title::after{
-    position: absolute;
+    position: relative;
     bottom: -8px;
     left: 50%;
     font-size: 20px;
@@ -79,7 +79,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
@@ -412,7 +412,7 @@ section .title::after{
     height: 150px;
     width: 150px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 2%;
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }

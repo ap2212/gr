@@ -170,7 +170,7 @@ section .title::after{
     color: #fff;
     min-height: 500px;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: responsive;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
@@ -218,7 +218,7 @@ section .title::after{
     content: "who i am";
 }
 .about .about-content .left{
-    width: 45%;
+    width: 100%;
 }
 .about .about-content .left img{
     height: 400px;
